@@ -1,0 +1,25 @@
+{
+    "name": "frankdejonge/testing-without-mocking-frameworks",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "TestingWithoutMockingFrameworks\\": "src/"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3",
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank de Jonge",
+            "email": "info@frenky.net"
+        }
+    ],
+    "require": {
+        "league/flysystem": "2.0.0-alpha.3",
+        "league/flysystem-memory": "2.0.0-alpha.3",
+        "ext-json": "*"
+    }
+}
